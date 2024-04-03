@@ -25,6 +25,8 @@ poetry config virtualenvs.in-project true
 
 # Now install all dependencies
 poetry install
+# Install pre-commit hooks
+poetry run pre-commit install
 
 # Init zsh
 zsh
