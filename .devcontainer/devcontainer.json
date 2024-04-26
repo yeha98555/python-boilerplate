@@ -40,7 +40,8 @@
             ".git"
           ],
           "terminal.integrated.defaultProfile.linux": "zsh",
-          "terminal.integrated.fontFamily": "MesloLGS NF"  // for powerlevel10k
+          "terminal.integrated.fontFamily": "MesloLGS NF",  // for powerlevel10k
+          "todo-tree.general.statusBar": "tags"
         },
 
         // Add the IDs of extensions you want installed when the container is created.
