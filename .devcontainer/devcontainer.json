@@ -18,46 +18,6 @@
       }
     },
 
-    // Configure tool-specific properties.
-    "customizations": {
-      // Configure properties specific to VS Code.
-      "vscode": {
-        // Set *default* container specific settings.json values on container create.
-        "settings": {
-          "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
-          "editor.formatOnSave": true,
-          "editor.codeActionsOnSave": {
-            "source.fixAll": "explicit",
-            "source.organizeImports": "explicit"
-          },
-          "editor.defaultFormatter": "charliermarsh.ruff",
-          "editor.tabSize": 2,
-          "editor.rulers": [
-            100
-          ],
-          "cSpell.ignorePaths": [
-            ".devcontainer/**",
-            ".git"
-          ],
-          "terminal.integrated.defaultProfile.linux": "zsh",
-          "terminal.integrated.fontFamily": "MesloLGS NF",  // for powerlevel10k
-          "todo-tree.general.statusBar": "tags"
-        },
-
-        // Add the IDs of extensions you want installed when the container is created.
-        "extensions": [
-          "ms-python.python",
-          "ms-python.vscode-pylance",
-          "charliermarsh.ruff",
-          "donjayamanne.githistory",
-          "streetsidesoftware.code-spell-checker",
-          "shardulm94.trailing-spaces",
-          "zhuangtongfa.Material-theme",
-          "Gruntfuggly.todo-tree"
-        ]
-      }
-    },
-
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
     // "forwardPorts": [],
 
