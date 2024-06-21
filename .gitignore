@@ -161,7 +161,11 @@ cython_debug/
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
+.idea/
+
+# VSCode
+.vscode/
+.idea
 
 ### Python Patch ###
 # Poetry local configuration file - https://python-poetry.org/docs/configuration/#local-configuration
@@ -174,3 +178,24 @@ poetry.toml
 pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python
+
+# Data
+logs/
+stores/
+mlflow/
+results/
+workspaces/
+efs/
+data/
+
+# MacOS
+.DS_Store
+
+# Clean up
+.trash/
+
+# key file
+*_key*.json
+
+# model checkpoint
+*.pth
