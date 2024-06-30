@@ -24,3 +24,8 @@ target-version = "py310"
 
 [tool.poetry.scripts]
 start = "python_template.main:main"
+
+# Pytest
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
