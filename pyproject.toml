@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "python-template"
+name = "python_template"
 version = "0.1.0"
 description = "Template for Python Project"
 authors = ["yeha98555 <yeha98555@gmail.com>"]
@@ -7,7 +7,6 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.3.4"
