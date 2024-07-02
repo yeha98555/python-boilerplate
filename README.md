@@ -8,9 +8,11 @@
 - devcontainer: vscode devcontainer.
 - GitHub Actions: GitHub Actions.
 
-## Usage
 
-Change `python_template` folder name to your package name. Meanwhile, update the `name` in `pyproject.toml`.
+## Installation
+
+Change `python_template` folder name to your package name.
+Meanwhile, replace the `python_template` in `pyproject.toml`.
 
 ### Use in local
 
@@ -52,3 +54,22 @@ Click `ctrl + shift + p`, select `Dev Containers: Open Folder in Container`.<br>
 Wait for the dev container to be built.
 
 (if you want to left dev container running, click `ctrl + shift + p`, select `Dev Containers: Reopen Folder Locally`)
+
+
+## Usage
+
+### Run
+
+The `start` command is defined in `pyproject.toml`. The `main.py` is the entrypoint.
+
+```sh
+poetry run start
+```
+
+### Test
+
+The `pytest` command is defined in `pyproject.toml`. The `tests/test_*.py` files are the test cases.
+
+```sh
+poetry run pytest
+```
