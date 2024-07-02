@@ -29,7 +29,8 @@ jobs:
           poetry install
       - name: Lint with ruff
         run: |
-          poetry run ruff . --show-source --statistics
+          poetry run ruff . --show-source
+          poetry run ruff . --statistics
           poetry run ruff . --exit-zero --max-complexity 10 --statistics
       - name: Test with pytest
         run: |
